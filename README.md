@@ -1,5 +1,5 @@
 <h1 align="center"> Solana Copy Trading Bot by SolVolume👽 </h1>  
-**SolVolume**솔라나 트레이딩의 끝판왕! 카피 트레이딩, 월릿 분석기, 트래커, 볼륨 빌더, 스나이퍼, MEV 봇 – 한 방에 다 되는 AIO 솔루션!.
+**SolVolume** 솔라나 트레이딩의 끝판왕! 카피 트레이딩, 월릿 분석기, 트래커, 볼륨 빌더, 스나이퍼, MEV 봇 – 한 방에 다 되는 AIO 솔루션!.
 
 ![](files/SITE.png)
 
