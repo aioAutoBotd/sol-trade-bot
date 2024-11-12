@@ -1,12 +1,11 @@
-<h1 align="center"> Solana Copy Trading Bot by SolVolume👽 </h1>  
-**SolVolume** 솔라나 트레이딩의 끝판왕! 카피 트레이딩, 월릿 분석기, 트래커, 볼륨 빌더, 스나이퍼, MEV 봇 – 한 방에 다 되는 AIO 솔루션!.
+<h1 align="center"> Solana Trading Bot </h1>
 
-![](files/SITE.png)
+솔라나 트레이딩의 끝판왕! 카피 트레이딩, 월릿 분석기, 트래커, 볼륨 빌더, 스나이퍼, MEV 봇 – 한 방에 다 되는 AIO 솔루션!.
 
----
+![KR](https://github.com/user-attachments/assets/6bb546c9-3f49-4b28-b5a8-5cc5f2be0307)
 
 # Parser/Analyzer Wallets  
-![](files/line.gif)  
+![line](https://github.com/user-attachments/assets/e22f0971-b76d-4c90-acb7-fc9a0cda5d4c)
 
 ## **기능:**  
 1. **계약 데이터를 빠르게 파싱하여 분석 가능.**  
@@ -35,19 +34,57 @@
 ---
 
 # Tracker Wallets  
-![TRACKER_1](https://github.com/user-attachments/assets/438dfb40-eb66-49e1-8aaa-e0d6cf16e10d)
-
+```
+ "tracker": [
+        ("월렛 추가 ➕", "add_wallet"),         # Add wallet
+        ("월렛 관리 🛠️", "mwallet"),          # Manage wallet
+        ("멀티 월렛 💼", "muwallet"),          # Multi Wallet
+        ("전용 봇 🤖", "dbot"),                # Dedicated bot
+        ("그룹 관리 👥", "groups"),            # Groups
+        ("알림 🔔", "noti"),                  # Notifications
+        ("설정 ⚙️", "settracker"),             # Settings
+```
 - **트래커를 통해 복사 중인 지갑의 모든 거래를 추적하며, 직관적이고 상세한 인터페이스 제공.**
 
 ### **거래 필터**
 - NFT, 스왑, 전송, 기타 거래를 포함하거나 제외하는 옵션을 선택할 수 있습니다.  
-
-![tracker](https://github.com/user-attachments/assets/dbd72fc5-faeb-49e9-b37c-03457ce34b45)
-
+```
+"settracker": [
+        ("🔔 알림 사용자 지정", "custom_notifications"), # Customize notifications
+        ("⚠️ 버튼 사용자 지정", "custom_buttons"),      # Customize buttons
+        ("⏸️ RAY 일시 중지/재개", "pause_ray"),          # Pause/resume RAY
+        ("⛓️ 체인 선택", "select_chains"),              # Select chains
+        ("❌ 주소 차단", "block_address"),               # Block address
+        ("🖼NFT: ✔️", "nft_toggle"),                   # NFTs
+        ("♻️스왑: ✔️", "swaps_toggle"),                 # Swaps
+        ("📈구매: ✔️", "buys_toggle"),                  # Buys
+        ("📉판매: ✔️", "sells_toggle"),                 # Sells
+        ("✏️첫 구매만: ❌", "first_buy_toggle"),         # First Buy Only
+        ("🔋최소 거래 SOL: 0", "min_trade_sol"),         # Min trade SOL
+        ("🪫최대 거래 SOL: 0", "max_trade_sol"),         # Max trade SOL
+        ("🛡토큰 민트: ✔️", "token_mint_toggle"),         # Token mint
+        ("🔋최소 SOL 전송: 0", "min_sol_transfer"),       # Min SOL transfer
+        ("🪫최대 SOL 전송: 0", "max_sol_transfer"),       # Max SOL transfer
+        ("💸최소 토큰 전송 USD: 0", "min_token_transfer_usd"), # Min token transfer USD
+        ("📤토큰 전송: ✔️", "token_transfers_toggle"),    # Token transfers
+        ("🖼cNFT: ✔️", "cnfts_toggle"),                 # cNFTs
+        ("DRiP: ✔️", "drip_toggle"),                   # DRiP
+        ("🔥소각: ✔️", "burn_toggle"),                  # Burn
+        ("✅승인: ✔️", "approvals_toggle"),             # Approvals
+        ("팁: ❌", "tips_toggle"),                      # Tips
+        ("☄️Jupiter: ✔️", "jupiter_toggle"),           # Jupiter
+        ("☄️Jupiter DCA: ✔️", "jupiter_dca_toggle"),   # Jupiter DCA
+        ("☄️Jupiter Perps: ✔️", "jupiter_perps_toggle"), # Jupiter Perps
+        ("💊PumpFun: ✔️", "pumpfun_toggle"),           # PumpFun
+        ("🧬Raydium: ✔️", "raydium_toggle"),           # Raydium
+        ("수신: ✔️", "incoming_toggle"),                # Incoming
+        ("송신: ✔️", "outgoing_toggle"),                # Outgoing
+        ("뒤로 가기", "tracker")                       # Back
+```
 ---
 
 # 소개  
-![](files/line.gif)  
+![line](https://github.com/user-attachments/assets/e22f0971-b76d-4c90-acb7-fc9a0cda5d4c) 
 
 **SolVolume**은 Raydium, PUMP.FUN, MOONSHOT과 같은 솔라나 기반 플랫폼을 사용하여 거래 전략을 자동화합니다.  
 - 이더리움에서 솔라나로 거래 활동이 이동하는 트렌드를 포착하여, 몇 달 간의 조용한 개발 끝에 **SolVolumeBot**을 선보입니다.  
@@ -56,7 +93,6 @@
 ---
 
 # V1.2.7 주요 기능  
-![SOLVOLUMEBOT](https://github.com/user-attachments/assets/7c2d9cd7-7f22-47cf-8656-928fbd2ddbab)  
 
 1. **💎 볼륨 봇**: SOL 매수 범위 및 지연 시간 설정으로 자연스러운 거래 볼륨 생성.  
 2. **🎯 스나이퍼 봇**: 서브 지갑으로 대량 구매를 지원하며, 특정 지갑이 민팅한 새 토큰을 빠르게 감지.  
