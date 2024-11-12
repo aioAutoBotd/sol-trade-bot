@@ -1,6 +1,6 @@
 <h1 align="center"> Solana Trading Bot </h1>
 
-솔라나 트레이딩의 끝판왕! 카피 트레이딩, 월릿 분석기, 트래커, 볼륨 빌더, 스나이퍼, MEV 봇 – 한 방에 다 되는 AIO 솔루션!.
+Solana Trading Ultimate! Copy trading bot, wallet analyzer, tracker bot, volume bot, sniper bot, MEV bot - all in one AIO solution!
 
 ![KR](https://github.com/user-attachments/assets/6bb546c9-3f49-4b28-b5a8-5cc5f2be0307)
 
